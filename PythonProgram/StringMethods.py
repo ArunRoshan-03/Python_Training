@@ -35,7 +35,6 @@ print(
 Name2 = "kutty"
 print(Name2 in name)
 print(Name2 is not name)
-from builtins import print
 
 # Testing String
 dummy_data = str("Welcome To Learn Python Program      ")
@@ -56,7 +55,7 @@ print("All first text should be captial letter :", dummy_data.istitle())
 print("It will find the count of the letter on the variable:", dummy_data.count("P"))
 print("Contains:", dummy_data.__contains__("Learn"))
 print("right side it will strip:", dummy_data.rstrip())
-print("this method will swapcase:", dummy_data.swapcase());
+print("this method will swaps:", dummy_data.swapcase())
 print("It will replaced ", dummy_data.replace("Learn", "Learning"))
 
 # How can you check if a string contains a particular substring in Python?

@@ -30,4 +30,4 @@ print(list_Values.pop(2))
 
 list = [value for value in str(list_Values) if "B" in value]
 
-print("The A is inclued in the ", list, end=" ")
+print("The A is included in the ", list, end=" ")

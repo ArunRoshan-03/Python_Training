@@ -1,17 +1,13 @@
-import sys
-
-list_Values =tuple(["As", "B", "C", "D", "A"])
+list_Values = tuple(["As", "B", "C", "D", "A"])
 print(list_Values)
 
-l = (1, 343, 5, 342)
-print(l)
-
+list_number = (1, 343, 5, 342)
+print(list_number)
 
 print(max(list_Values))
 print(min(list_Values))
 print(len(list_Values))
-print(sum(l))
-
+print(sum(list_number))
 
 for index in list_Values:
     print(index, end="")

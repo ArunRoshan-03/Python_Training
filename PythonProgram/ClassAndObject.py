@@ -19,7 +19,7 @@ class ClassAndObject:
     # Instance method and static method and passing parameter.
     @staticmethod
     def Student_Sec(Id):
-        if Id == None:
+        if Id is not None:
             print("your", {Id}, "is enter Successfully")
         else:
             print({Id}, "is Integer value")

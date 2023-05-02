@@ -6,6 +6,7 @@ boolean_value = True
 
 print(value + floatvalue)
 print(value + boolean_value)
+
 print(boolean_value + floatvalue)
 print(String_word_FirstPart + String_word_SecondPart)
 print(String_word_SecondPart + floatvalue)
