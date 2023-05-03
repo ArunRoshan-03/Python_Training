@@ -10,7 +10,7 @@ class Mammal(Animal):
         self.animal_color = color
 
     def make_sound(self, animal_type=None):
-        self.mammal_Type(animal_type)
+        print("A mammal is Running.")
 
     def move(self):
         print("A mammal is moving.")
